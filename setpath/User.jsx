@@ -58,14 +58,14 @@ const User = () => {
                     {/*  User related content */}
                     <View style={profile.topView}>
                         <TouchableOpacity><ReadMoreIcn name="person" style={profile.profileLogo} /></TouchableOpacity>
-                        <Text style={{ fontSize: 19, fontWeight: '500', color: "#fff" }}>Adarsh Mishra</Text>
-                        <Text style={{ color: '#eee', fontFamily: 'OpenSans_600SemiBold' }}>adahmishra.6391</Text>
+                        <Text style={{ fontSize: 19, fontWeight: '500', color: "#fff" }}>Mishra</Text>
+                        <Text style={{ color: '#eee', fontFamily: 'OpenSans_600SemiBold' }}>adahmishr</Text>
                     </View>
                     <View>
                         <View style={profile.userData}>
                             <TouchableOpacity style={profile.logoandMatter}>
                                 <EmailLogo name="email" style={profile.setLogoStyle} />
-                                <Text style={profile.textData}>amishra.6391@gmail.com</Text>
+                                <Text style={profile.textData}>amishra@gmail.com</Text>
                             </TouchableOpacity>
 
                             <View style={[profile.logoandMatter, { justifyContent: 'space-between' }]}>
