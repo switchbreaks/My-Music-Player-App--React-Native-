@@ -50,7 +50,6 @@ function MyTabs() {
     </Tab.Navigator>
   );
 }
-
 export default function App() {
   return (
       <Permiss>
